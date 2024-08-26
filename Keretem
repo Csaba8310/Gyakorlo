@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+public class KeretMegjelenítő {
+  public static void main(String args[]) {
+    JFrame énKeretem = new JFrame();
+    String énFejlécem = "Üres Keret";
+
+    énKeretem.setTitle(énFejlécem);
+    énKeretem.setSize(300; 200);
+    énKeretem.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    énKeretem.setVisible(true);
+  }
+}
+
